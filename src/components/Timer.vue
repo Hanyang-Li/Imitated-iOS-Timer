@@ -375,6 +375,7 @@ body {
   margin: 0;
   background-color: #000;
   min-width: $component-width;
+  overflow: hidden;
 }
 
 #timer {
@@ -537,7 +538,7 @@ body {
     transform: translate(-50%, -50%);
 
     .digits {
-      font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, sans-serif;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
     }
 
     .colon {
@@ -604,7 +605,7 @@ body {
       height: 2rem;
       width: $digits-width;
       color: #909090;
-      font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, sans-serif;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
       font-size: 1.2rem;
       font-weight: 300;
       line-height: 2rem;
@@ -725,7 +726,7 @@ body {
         width: $digits-width;
         margin-right: .3rem;
         text-align: right;
-        font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, sans-serif;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 1.2rem;
         font-weight: 300;
 
