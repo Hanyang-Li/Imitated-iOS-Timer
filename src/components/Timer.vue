@@ -343,7 +343,7 @@ export default {
       // 给倒计时时间设置轮盘控制器绑定鼠标滚轮事件
       this.$refs[wheel.name + 'Ctl'].addEventListener('wheel', event => {
         // 计时器开始计时或者轮盘正在转动时，不重复触发事件
-        if (!this.timer && !this[this.name +'Moving']) {
+        if (!this.timer && !this[wheel.name +'Moving']) {
           if (event.deltaY < 0) {
             wheel.isMoving.before = true;
           } else if (event.deltaY > 0) {
