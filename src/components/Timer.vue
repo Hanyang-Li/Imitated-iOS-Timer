@@ -295,7 +295,7 @@ export default {
       clearInterval(this.timer);  // 清除计时器
       this.timer = null;  // 进入 stopped 状态
       this.paused = false;  // (保险) 退出 paused 状态
-      this.leftMilliSeconds = this.totalMilliSeconds;  // (保险) 重置剩余时间
+      // this.leftMilliSeconds = this.totalMilliSeconds;  // (保险) 重置剩余时间
     },
     // 右侧控制按钮点击处理器
     control() {
@@ -309,7 +309,7 @@ export default {
             clearInterval(this.timer);  // 清除计时器
             this.timer = null;  // 进入 stopped 状态
             this.triggered = true;  // 触发计时器 triggered 状态
-            this.leftMilliSeconds = this.totalMilliSeconds;  // (保险) 重置剩余时间
+            // this.leftMilliSeconds = this.totalMilliSeconds;  // (保险) 重置剩余时间
           }
         }, deltaTime);
       }
